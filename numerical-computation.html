@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeraical Computation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style-numerical-computational.css">
+        
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="https://cyber-nivio.itch.io/">Itch.io</a>
+      </div>
+
+    <h1>Bisection Method</h1>
+     <p><b>How to use:</b><br>First enter expression as in question, for example: x^2-2 (is expression for square root of 2). This algorithm is for finding roots. While entering the expression, variable should be 'x', power should be represented by '^', brackets should have symbol "*" to represent multiply and divide is "/" complex equation is like this: x*(x^2/2-1), and error should be written in decimal eg:0.0001. Itteration tab can be left empty for calculating in trems of only tolerance factor. But itterate a number of time write integer in itteration tab and random number after "0." in tolerance tab. </p>
+    <form>
+       expression: <input type="text" placeholder="x^2-2" id="exp">
+       itteration:<input type="number" placeholder="13" id="itteration">
+       tolerance:<input type="number" placeholder="0.00001" id="error">
+        
+        <button onclick="calculate()">Calculate</button>
+    </form><br>
+    <script src="numerical_computation.js"></script>
+    <div id="output"></div>
+    <table id="table" border="1" cellspacing="0"></table>
+    <div id="answer"></div>
+
+
+  
+    
+
+    
+
+
+
+
+</body>
+</html>

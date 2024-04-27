@@ -1,0 +1,192 @@
+
+
+
+  /* Width of the scrollbar */
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #872341;
+    
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #BE3144;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F05941;
+  }
+
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 15px #FFFFFF, 0 0 30px #FFFFFF, 0 0 45px #FFCCCC, 0 0 60px #FFCCCC, 0 0 75px #FFCCCC, 0 0 90px #FFCCCC, 0 0 105px #FFCCCC;
+    }
+    to {
+      text-shadow: 0 0 30px #FFFFFF, 0 0 45px #FFE5E5, 0 0 60px #FFE5E5, 0 0 75px #FFE5E5, 0 0 90px #FFFAFA, 0 0 105px #FFFAFA, 0 0 120px #FFFAFA;
+    }
+  }
+  
+  
+
+.glow{
+    color:white;
+    font-size: 5em;
+    font-weight: 600;
+    font-family: "Rubik Scribble", system-ui;
+    position:fixed;
+    left: 25vw;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+body{
+    background-color: #691b32;
+    color:white;
+    background-image: url("brown-brick-wall-textured-background.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.empty{
+    height:100vh;
+}
+
+.empty-content{
+    height:100px;
+}
+.content-box{
+    background-color: #22092C;
+    height: auto;
+    width: 100vw;
+    border-radius: 10em 10em 0px 0px ;
+    position:absolute;
+    display: grid;
+    row-gap: 1em;
+    left: 0%;
+
+}
+.intro{
+    max-width: 85vw;
+    position: relative;
+    top:6em;
+    left:7.5em;
+    display: grid;
+    column-gap:50px;
+    row-gap:20px;
+    grid-template-columns: 10em 40em ;
+}
+
+
+#logo{
+    border-radius: 50%;
+    border: 5px dashed #BE3144;
+    width: 10em;
+    height: 10em;
+    /*
+    position: relative;
+    left:7em;
+    top: 5em;
+    
+    */
+}
+
+
+.social-media-links{
+    /*
+    position: relative;
+    top:6em;
+    left:7.5em;
+    */
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+#icons{
+    width: 30px;
+
+}
+
+/*
+font-family:"Edu NSW ACT Foundation", cursive;
+font-family: "Pacifico", cursive;
+*/
+#heading{
+    font-family: "Pacifico", cursive;
+    font-size: 3em;
+
+}
+
+.content{
+    padding:10px;
+    padding-left: 2em;
+}
+
+h1{
+    font-family:"Edu NSW ACT Foundation", cursive;
+    
+}
+.content p{
+    font-family: "Caveat", cursive;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.content img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+iframe{
+  padding-left: 9vw;
+}
+.inside-content a{
+    position: relative;
+    left:35%;
+    background-color: #BE3144;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    color:white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+
+
+
+.inside-content{
+    display: grid;
+    column-gap:1em ;
+    grid-template-columns: 60% 30%;
+}
+
+footer{
+    padding-top:10%;
+    padding-bottom: 2%;
+    font-family:"Edu NSW ACT Foundation", cursive;
+}
